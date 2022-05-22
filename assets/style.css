@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -61,7 +63,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #d5af06;
   color: white;
 }
 
