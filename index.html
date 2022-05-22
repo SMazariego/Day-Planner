@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,15 +30,24 @@
     </header>
     <div class="container">
       <!-- 7AM -->
-      <div class="input-group input-group-lg" data-hour="9">
+      <div class="input-group input-group-lg" data-hour="7">
           <div class="input-group-prepend">
               <span class="input-group-text time-block block1"></span>
           </div>
-          <input type="text" class="form-control form9" aria-label="Large">
+          <input type="text" class="form-control form7" aria-label="Large">
           <button class="btn saveBtn"><i class="far fa-save"></i></button>
       </div>
+      <!-- 8AM-->
+      <div class="input-group input-group-lg" data-hour="8">
+        <div class="input-group-prepend">
+            <span class="input-group-text time-block block2"></span>
+        </div>
+        <input type="text" class="form-control form8" aria-label="Large">
+        <button class="btn saveBtn"><i class="far fa-save"></i></button>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
