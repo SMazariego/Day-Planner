@@ -25,12 +25,18 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead">Make sense of the Chaos that is this fleeting life.</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+      <!-- 7AM -->
+      <div class="input-group input-group-lg" data-hour="9">
+          <div class="input-group-prepend">
+              <span class="input-group-text time-block block1"></span>
+          </div>
+          <input type="text" class="form-control form9" aria-label="Large">
+          <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
