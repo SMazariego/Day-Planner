@@ -196,22 +196,22 @@ function testTime() {
          $(".form17").addClass("present");
      };
 }
-
-    testTime();
+testTime();
 
 var x = [7, 8, 9, 10, 11, 12, 1, 2, 3];
 
-for (var i = 0; i < x.length; i++) {
+for (var i = 0; i < x.length; ++i) {
     var dataHour = localStorage.getItem(x[i]);
 
     $(".form" + x[i]).val(dataHour);
 }
     // Info storage
 $(".saveBtn").click(function () {
-    event.preventDefault();
+    Event.preventDefault();
     var formValue = $(this).siblings(".form-control").val();
     console.log("This worked");
     var listItem = $(this).parent().data("hour");
 
     localStorage.setItem(listItem, formValue);
 });
+   
